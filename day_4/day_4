@@ -1,93 +1,68 @@
-print('Age: ', 18)
-print('Weight: ', 180)
-print('Complex number: ', 1 + 1j)
+uno ='Thirty' 
+dos='Days' 
+tres ='Of' 
+cuatro ='Python'
+espacio = ' '
+sentence = uno + espacio + dos + espacio + tres + espacio + cuatro
+print (len(sentence))
 
-base= 20
-height = 10
-The_area_of_the_triangle = 100
-area = 0.5 * base * height
+uno ='Coding'
+dos='For' 
+tres ='All' 
+espacio = ' '
+sentence = uno + espacio + dos + espacio + tres
+print(len(sentence))
 
-a = 5
-b = 4
-c = 3
-The_perimeter_of_the_triangle = 12
-perimeter = a + b + c
+company = "Coding For All"
+print(company)
+print(len(company))
+print(company.upper)
+print(company.lower)
 
-length = 10
-width = 20
-area_of_rectangle = length * width
-perimeter = 2 * (length + width)
+uno ='Coding'
+dos='For' 
+tres ='All' 
+espacio = ' '
+sentence = uno + espacio + dos + espacio + tres
+print(len(sentence))
+print(sentence.capitalize)
+print(sentence.title)
+print(sentence.swapcase)
+print(slice(sentence))
+print(sentence.index)
+print(sentence.replace('python', 'coding'))
 
-pi = 3.14
-x= 2
-r=1
-area = pi * r * r
-c = 2 * x * pi * r
+sentence = 'python for everyone'
+print(sentence.replace('everyone', 'all'))
 
+company = "Coding For All"
+print(company.split)
 
-x = 5
-
-y = 2 * x - 2
-
-m = 3
-x= (2,2)
-y= (6,10)
-Euclidean_distance = m * (x - y)
-
-x= 5
-m= 3
-print(x>m)
-
-x = 1
-y = x^2 + 6*x + 9
-x=2
-y = x^2 + 6*x + 9
-x=3
-y = x^2 + 6*x + 9
-
-a=1
-b = 6
-c = 9
-
-python= 1
-dragon= 2
-print(python>dragon)
+sentence = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" 
+print(sentence.split)
 
 
-print(python< 'on' and  dragon)
+company = "Coding For All"
+print(company.index(0))
+print(company.index(3))
+print(company.index(10))
 
-jargon = 1
-sentence =2
-print(jargon in sentence)
+sentence = 'python for everyone'
+print(sentence.islower)
 
-print(not(python< 'on' and  dragon))
+company = "Coding For All"
+print(company.islower)
+sub_string = 'C'
+sub_string = 'F'
+print(company.index(sub_string))
+print(company.index(sub_string))
 
-print(python>dragon)
+print(company.rfind('l'))
 
-number_divisible = x 
-resto = 0
-number_divisible=resto
+oracion=  'You cannot end a sentence with because because because is a conjunction'
+print(oracion.find('because'))
+print(oracion.rfind('because'))
+print(oracion.split('because'))
+print(oracion.index('because'))
+print(oracion.split('because'))
 
-x = 7
-y = 3
-solution = 2.7
-int ((x / 3) is solution )
-
-x = 10
-y= 10
-x=y
-
-int('9.8') 
-x=10
-int(not('9.8') is x )
-
-hours = 40
-rate_per_hour = 28
-weekly_earning = 1120
-print(hours*rate_per_hour)
-
-number_of_years_you_have_lived = 100
-You_have_lived_in_second_in_one_year = 31536000
-print(number_of_years_you_have_lived*You_have_lived_in_second_in_one_year)
-
-int('1 1 1 1 1;2 1 2 4 8;3 1 3 9 27;4 1 4 16 64;5 1 5 25 125')
