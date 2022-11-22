@@ -1,0 +1,43 @@
+empty_list = list()
+vegetables = ['Tomato', 'Potato', 'Cabbage','Onion', 'Carrot'] 
+print('Number of vegetables:', len(vegetables))
+vegetables = ['Tomato', 'Potato', 'Cabbage','Onion', 'Carrot'] 
+first_vegetables = vegetables[0]
+middle_vegetables = vegetables[2]
+last_vegetables =vegetables[4]
+
+mixed_data_types= ['Paula', '17', '1,54', 'non', 'non']
+it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+print('it_companies:', it_companies)
+print('Number of it_companies:', len(it_companies))
+first = it_companies[0]
+second = it_companies[1]
+last =it_companies[6]
+it_companies[0] = 'android'
+print('it_companies:', it_companies)
+last_index = len(it_companies) - 1
+it_companies[last_index] = 'IT'
+#;it_companies
+print('it_companies:', it_companies)
+print(sorted(it_companies))
+print(reversed(it_companies))
+print(slice(it_companies(0,1,2)))
+print(slice(it_companies(-1,-2,-3)))
+print(slice(it_companies(-1)))
+print(slice(it_companies(1)))
+print(slice(it_companies(-1)))
+print(reversed(it_companies(-1)))
+print(reversed(it_companies(1)))
+print(reversed(it_companies(-1)))
+print(reversed(it_companies(all)))
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+list3 = front_end + back_end
+list3.copy 
+full_stack = list3
+last_index = len(list3) - 1
+list3[last_index] = 'Python', 'SQL'
+last_index = len(list3) - 1
+list3[last_index] = 'Redux'
+
