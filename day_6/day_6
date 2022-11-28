@@ -1,0 +1,13 @@
+empty_tuple = ()
+empty_tuple = tuple()
+
+tpl1 = ('Alba ' ,'Elsa')
+tpl2 = ('Dani', 'Dani')
+
+tpl3 = tpl1 + tpl2
+
+tpl3 = 4
+
+tpl4 = ('papa' , 'mama')
+
+family_members = tpl3 + tpl4
