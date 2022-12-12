@@ -18,6 +18,7 @@ print('it_companies:', it_companies)
 last_index = len(it_companies) - 1
 it_companies[last_index] = 'IT'
 #;it_companies
+
 print('it_companies:', it_companies)
 print(sorted(it_companies))
 print(reversed(it_companies))
