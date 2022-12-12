@@ -8,7 +8,6 @@ it_companies.add('twitter')
 it_companies.add('twitter', 'youtube')
 it_companies.remove('twitter')
 
-
 remove = {'r', 'e', 'm', 'o','v', 'e'}
 discard = {'d', 'i', 's', 'c', 'a','r', 'd'}
 remove.difference(remove)    
