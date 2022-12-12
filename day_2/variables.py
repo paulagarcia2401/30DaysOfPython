@@ -46,7 +46,6 @@ area_of_circle = 3,141592 *radio*radio
 diametro = 30 + 30
 circum_of_circle = diametro 
 area_of_circle = 3,141592 *radio*radio
-
 build(first_name)
 build (last_name)
 build (country)
