@@ -1,0 +1,13 @@
+dog = {}
+dog = {'name', 'color', 'breed', 'legs', 'age'}
+student= {'first_name', 'last_name', 'gender', 'age', 'marital status', 'skills', 'country', 'city', 'address' }
+print(len(student))
+print(student.items())
+student [1]
+student [2]
+keys = student.keys()
+print(keys)
+values = student.values()
+print(values)
+print(student.items())
+del student 
