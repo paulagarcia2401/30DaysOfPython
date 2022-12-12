@@ -24,7 +24,6 @@ r=1
 area = pi * r * r
 c = 2 * x * pi * r
 
-
 x = 5
 
 y = 2 * x - 2
@@ -52,7 +51,6 @@ c = 9
 python= 1
 dragon= 2
 print(python>dragon)
-
 
 print(python< 'on' and  dragon)
 
