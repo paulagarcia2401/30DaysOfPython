@@ -41,7 +41,6 @@ print(company.split)
 sentence = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" 
 print(sentence.split)
 
-
 company = "Coding For All"
 print(company.index(0))
 print(company.index(3))
