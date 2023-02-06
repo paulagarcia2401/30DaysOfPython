@@ -1,0 +1,16 @@
+count = 0
+while count < 10:
+    print(count)
+    count = count + 1
+
+count = 10
+while count > 0:
+    print(count)
+    count = count - 1
+
+triangulo = [[1],[11],[111],[1111],[11111],[111111],[1111111]]
+for fila in triangulo:
+    for columna in fila:
+     print(columna)
+
+rectangulo = [[]]
