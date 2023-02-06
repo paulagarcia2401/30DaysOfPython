@@ -8,9 +8,27 @@ while count > 0:
     print(count)
     count = count - 1
 
-triangulo = [[1],[11],[111],[1111],[11111],[111111],[1111111]]
+triangulo = '#'
 for fila in triangulo:
-    for columna in fila:
-     print(columna)
+    for columna in range(1,8):
+     print(triangulo*columna)
 
-rectangulo = [[]]
+for fila in range (1,9):
+    for columna in range (1,9):
+        print("#")
+
+
+for fila in range (0,11):
+    print(fila, "x", fila, "=", fila, "*")
+
+
+for lang in ['Python', 'Numpy','Pandas','Django', 'Flask']:
+    print(lang)
+
+for file in range (0,101):
+    if file % 2 == 0:
+        print(file)
+
+for file in range (0,101):
+    if file % 2 == 0:
+        print(file)
