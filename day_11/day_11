@@ -1,0 +1,41 @@
+def add_two_numbers(a, b):
+    return a + b
+
+def area_of_circle(r):
+    return 3.14 * r * r
+
+def add_all_nums(numeros):
+    sum_of_nums = numeros
+
+def convert_celsius_to_fahrenheit(celsius_num):
+    return (celsius_num * 9 / 5) + 32
+
+
+def check_season(mes):
+    if mes is ["septiembre", "octubre", "noviembre"]:
+        print("otono")
+    if mes is ["diciembe", "enero", "febrero"]:
+        print("invierno")
+    if mes is ["marzo", "abril", "mayo"]:
+        print("primavera")
+    if mes is ["junio", "julio", "agosto"]:
+        print("verano")
+
+def print_list(lista):
+    for fila in lista:
+        print(fila)
+
+
+def reverse_list1(lista):
+    return lista[5,4,3,2,1]
+print(reverse_list1([1, 2, 3, 4, 5]))
+
+def reverse_list2(lista):
+    return lista["A","B","C"]
+print(reverse_list2(["A", "B", "C"]))
+
+x_capitalize =" X"
+def capital_list_terms(x):
+    for file in x:
+        x= x_capitalize
+    return x
