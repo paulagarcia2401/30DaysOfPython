@@ -39,3 +39,26 @@ def capital_list_terms(x):
     for file in x:
         x= x_capitalize
     return x
+
+
+def add_item(num1, num2):
+    num1.append(num2)
+    return num1
+
+def remove_item(num1, num2):
+    num1.remove(num2)
+    return num1
+
+def sum_of_numbers(high):
+    total = 0
+    for file in range(high+1):
+        total+=file
+    return sum_of_numbers
+
+def is_prime (number_prime):
+    print(number_prime)
+
+print(is_prime)
+
+def checK_list(test_list):
+    return checK_list
